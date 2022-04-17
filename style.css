@@ -201,6 +201,17 @@
   nav a:first-child {
     margin-left: 8.3%;
   }
+
+  nav a.highlighted,
+  nav a.highlighted:visited {
+    background: var(--accent);
+    border: 0;
+  }
+  nav a.highlighted:hover {
+    color: var(--bg)
+  }
+
+
   nav a,
   nav a:visited {
     margin: 0 1rem 1rem 0;
@@ -216,20 +227,36 @@
     color: var(--accent);
     border-color: var(--accent);
   }
-  
-  nav a:last-child {
+
+  nav a.right:last-child {
+    float: right;
+    margin-right: 1rem;
+    position:static;
+  }
+
+  nav a.right:nth-last-child(2) {
+    position: sticky;
+    float: right;
     margin-right: 8.3%;
   }
+
   
   /* Reduce nav side on mobile */
   @media only screen and (max-width: 720px) {
     nav a {
       border: none;
       padding: 0;
-      color: var(--accent);
+      /*color: var(--accent); */
       text-decoration: underline;
       line-height: 1;
     }
+    nav a.highlighted {
+      background: none;
+      text-decoration: underline;
+      line-height: 1;
+      color: var(--accent);
+    }
+  
   }
   
   /* Format the expanding box */
