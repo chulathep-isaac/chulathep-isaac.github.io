@@ -440,9 +440,15 @@
   
   main img,
   main video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    text-align: center;
+    width: 66.6%;
   }
   
   figure {
