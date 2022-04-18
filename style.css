@@ -198,19 +198,6 @@
     line-height: 2;
     padding: 2rem 0 0 0;
   }
-  nav a:first-child {
-    margin-left: 8.3%;
-  }
-
-  nav a.highlighted,
-  nav a.highlighted:visited {
-    background: var(--accent);
-    border: 0;
-  }
-  nav a.highlighted:hover {
-    color: var(--bg)
-  }
-
 
   nav a,
   nav a:visited {
@@ -226,6 +213,23 @@
   nav a:hover {
     color: var(--accent);
     border-color: var(--accent);
+  }
+
+  nav a.highlighted,
+  nav a.highlighted:visited {
+    background: var(--accent);
+    border: 0;
+  }
+  nav a.highlighted:hover {
+    color: var(--bg)
+  }
+
+  nav a.left {
+    float: left;
+  }
+
+  nav a.left:first-child {
+    margin-left: 8.3%;
   }
 
   nav a.right:last-child {
