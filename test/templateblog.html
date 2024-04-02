@@ -8,12 +8,24 @@
   <link rel="shortcut icon" href="../logo.png" />
   <script src="../smoothscrolling.js"></script>
   <script src="../print.js"></script>
+  <script>
+    @font-face{
+      font-family: 'sgs'; 
+      src: url('path/to/fontfile.woff2') format('woff2'), 
+           url('path/to/fontfile.woff') format('woff');
+    }
+
+    nav h2 {
+      font-family: 'sgs', sans-serif;
+    }
+
+  </script>
   <title>CS:✍🏼 - Miscellaneous Problems in High-School Biology</title>
 </head>
 <body>
   <header>
     <nav>
-      <h2 style='font-family:singapore_slingregular.woff'>Miscellaneous Problems in High-School Biology</h2>
+      <h2>Miscellaneous Problems in High-School Biology</h2>
       <a class="highlighted left" href="../portal.html">All Blogs: ✍🏼</a>
       <a id="home" class="highlighted left" href="#bottom">To the bottom: 👇🏻</a>
       <a class="highlighted right" href="../index.html">Back home: 🏠</a>
