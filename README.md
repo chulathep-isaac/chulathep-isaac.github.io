@@ -1,2 +1,2 @@
 # chulathep-isaac.github.io
-CV website
+CV and Blog Website
